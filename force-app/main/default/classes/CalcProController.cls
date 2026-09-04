@@ -1,5 +1,5 @@
 public class CalcProController {
     public static Decimal add(Decimal a, Decimal b) {
-        return a.add(b).setScale(2);
+        return (a + b).setScale(2);
     }
 }
